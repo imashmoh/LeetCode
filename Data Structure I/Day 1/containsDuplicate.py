@@ -1,8 +1,5 @@
 from typing import List
 
-from sqlalchemy import distinct, true
-
-
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         # Solution 1
@@ -43,5 +40,7 @@ class Solution:
         #if there are no duplicate values then this statment will execute
         return False 
 
-    nums = [1,2,3,4,5,6]
-    print(containsDuplicate(containsDuplicate, nums))
+nums = [1,2,3,4,5,6]
+sol = Solution()
+print(sol.containsDuplicate(nums))    
+#print(containsDuplicate(containsDuplicate, nums))
